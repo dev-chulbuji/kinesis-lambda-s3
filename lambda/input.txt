@@ -5,7 +5,7 @@
                 "kinesisSchemaVersion": "1.0",
                 "partitionKey": "1",
                 "sequenceNumber": "49590338271490256608559692538361571095921575989136588898",
-                "data": "{'test': 'test'}",
+                "data": {"container_id":"5da4c90d019a9b43abd525f56310f0ce6776f2e61cffc7872c3eb77cc36f37f1","container_name":"/nginx","log":"172.30.0.1 - - [09/Mar/2020:13:54:55 +0000] \"GET / HTTP/1.1\" 200 612 \"-\" \"curl/7.54.0\" \"-\"","source":"stdout"},
                 "approximateArrivalTimestamp": 1545084650.987
             },
             "eventSource": "aws:kinesis",

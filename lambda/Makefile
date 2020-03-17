@@ -21,3 +21,7 @@ get_evnet_source:
 	awslocal lambda list-event-source-mappings --function-name $(LAMBDA_NAME) 
 test_lambda:
 	awslocal lambda invoke --function-name ProcessKinesisRecords --payload file://$(PWD)/input.txt out.txt
+
+# S3
+s3_ls:
+	awslocal s3 ls s3://nginx-log
